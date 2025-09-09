@@ -36,6 +36,8 @@ public class MenuBuilder {
     menu.add(dessert);
 
     // Print the menu variable to the console.
-    System.out.println(menu.toString());
+    for (int i = 0; i < menu.size(); i++) {
+      System.out.println("(" + (i + 1) + ") " + menu.get(i));
+    }
   }
 }
