@@ -14,23 +14,23 @@ public class Ticket {
     return destination;
   }
 
-  public void setDestination(String updatedDestination) {
-    destination = updatedDestination;
+  public void setDestination(String destination) {
+    this.destination = destination;
   }
 
   public double getPrice() {
     return price;
   }
 
-  public void setPrice(double updatedPrice) {
-    price = updatedPrice;
+  public void setPrice(double price) {
+    this.price = price;
   }
 
   public boolean getIsReturn() {
     return isReturn;
   }
 
-  public void setIsReturn(boolean updatedIsReturn) {
-    isReturn = updatedIsReturn;
+  public void setIsReturn(boolean isReturn) {
+    this.isReturn = isReturn;
   }
 }
